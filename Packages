@@ -1,0 +1,57 @@
+Package: com.yourepo.lly.prozs
+Version: 3.5.7
+Architecture: iphoneos-arm
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 3088
+Depends: mobilesubstrate, com.creaturecoding.libcspreferences, preferenceloader
+Filename: ./debs/pro助手3.5.7.deb
+Size: 1186170
+MD5sum: a239f09718ec5a23cd97c185d467115d
+SHA1: e5d1a645cdbfb1bdcc212b7bf58a4e01b1c7b85f
+SHA256: dba93ebfbde162f87d52a0b32fc8284149871ac8c3bddf068c508622bfba2bbe
+Section: Tweaks
+Description: 已适配A12。各类常用app开启Pro权限，相关app商店下载即可。即将添加更多app。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/prozs.html
+Icon: file:///Library/PreferenceBundles/prozs.bundle/icon@2x.png
+Name: Pro助手
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/prozssileo
+
+Package: lunotech11.Legizmo
+Version: 1.1-21DA231936i
+Architecture: iphoneos-arm
+Maintainer: lunotech11
+Installed-Size: 2920
+Depends: firmware (>= 13.0), mobilesubstrate, gsc.telephony
+Replaces: lunotech11.Legizmo
+Filename: ./debs/Legizmo-Release-Internal-1.1-21DA231936i.deb
+Size: 350968
+MD5sum: c38bd4d2eef981a1dc2e6cefd5fc8aab
+SHA1: 2589344f9a42fa3a5e11f51dbb69e90ec8bba37f
+SHA256: ffc1274aedcb4c104c29a8df05dddcfbfda58666b0490f1fe7370ca0b49e671a
+Section: Tweaks
+Description: Allow iOS to pair with newer versions of watchOS
+Tag: cydia::commercial
+Author: lunotech11
+Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
+Name: Legizmo (Internal Release)
+
+Package: lunotech11.legizmo
+Version: 1.1-21DA211738i
+Architecture: iphoneos-arm
+Maintainer: lunotech11
+Installed-Size: 2904
+Depends: firmware (>= 13.0), mobilesubstrate, gsc.telephony
+Replaces: lunotech11.legizmo
+Filename: ./debs/lunotech11.legizmo.deb
+Size: 523550
+MD5sum: cf417799f8a8671b865d6d9c2f879f3f
+SHA1: 89beee0c9644641508bc0b9cb5336abb83fb03e1
+SHA256: 23a1c73b8c2d73c7e343ac0292533d5c6f2a39280611ce142eebdc3c12268130
+Section: Tweaks
+Description: Allow iOS to pair with newer versions of watchOS
+Tag: cydia::commercial
+Author: lunotech11
+Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
+Name: Legizmo (Internal Release)
+
