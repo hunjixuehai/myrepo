@@ -17,6 +17,25 @@ Icon: file:///Library/PreferenceBundles/prozs.bundle/icon@2x.png
 Name: Pro助手
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/prozssileo
 
+Package: lunotech11.Legizmo
+Version: 1.1-21DA231936i
+Architecture: iphoneos-arm
+Maintainer: lunotech11
+Installed-Size: 2920
+Depends: firmware (>= 13.0), mobilesubstrate, gsc.telephony
+Replaces: lunotech11.Legizmo
+Filename: ./debs/Legizmo-Release-Internal-1.1-21DA231936i.deb
+Size: 350968
+MD5sum: c38bd4d2eef981a1dc2e6cefd5fc8aab
+SHA1: 2589344f9a42fa3a5e11f51dbb69e90ec8bba37f
+SHA256: ffc1274aedcb4c104c29a8df05dddcfbfda58666b0490f1fe7370ca0b49e671a
+Section: Tweaks
+Description: Allow iOS to pair with newer versions of watchOS
+Tag: cydia::commercial
+Author: lunotech11
+Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
+Name: Legizmo (Internal Release)
+
 Package: lunotech11.legizmo
 Version: 1.1-21DA211738i
 Architecture: iphoneos-arm
