@@ -1,452 +1,3 @@
-Package: applist
-Version: 1.5.16
-Architecture: iphoneos-arm
-Maintainer: Ryan Petrich <rpetrich@gmail.com>
-Installed-Size: 780
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
-Conflicts: com.a3tweaks.polus (<< 2.0.7)
-Filename: ./debs/applist.deb
-Size: 186838
-MD5sum: cd9eda415f26aaed929d00d370a9e796
-SHA1: 3ee264e297c8ea18118c4188ce50bbe1243a34e3
-SHA256: 9baf2971397efa2bc0a58111e12b4f790b135343fcdf6288ca9e04c6938fc341
-Section: System
-Description: Allow extensions to read the list of installed apps
-Author: Ryan Petrich <rpetrich@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
-Dev: rpetrich
-Name: AppList
-Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
-
-Package: cn.yttxcs.iamlazy
-Version: 1.3.3
-Architecture: iphoneos-arm
-Maintainer: 他是个疯子 <409774743@qq.com>
-Depends: coreutils, findutils, gzip, tar, xz | xz-utils, firmware (>= 13.0)
-Filename: ./debs/cn.yttxcs.iamlazy.deb
-Size: 236246
-MD5sum: 35079e50259aa77c246a5dca09f341e0
-SHA1: 0db06200a2cf9f513421eb61db4c2488c1573c27
-SHA256: 14cbcc0326198d92d350445b4681b214c6d4412600779b8a5872255c989dc69f
-Section: 工具
-Description: 轻松备份和恢复您的插件！
-Tag: cydia::commercial
-Author: Lightmann
-Icon: file:///Applications/Cydia.app/Sections/Utilities.png
-Name: IAmLazy「备份调整」
-Sponsor: 幺筒源<409774743@qq.com>
-
-Package: com.25mao.imageocr
-Version: 0.1-2
-Architecture: iphoneos-arm
-Maintainer: admin@25mao.com
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.25mao.imageocr.deb
-Size: 198826
-MD5sum: acee92f2592a45f64771bfb0912fd3c1
-SHA1: c77ecdd37778e065ddc13082eb1f7e1edc8a157d
-SHA256: 0cabbbab11d8ec7c36315ab62d4e8495d4a21210353e9db8d95766b623a7565d
-Section: 系统插件
-Priority: optional
-Author: Mao
-Name: 相册文字识别
-Sponsor: admin@25mao.com
-
-Package: com.25mao.youquan
-Version: 2.2.7
-Architecture: iphoneos-arm
-Maintainer: admin@25mao.com
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.25mao.youquan.deb
-Size: 96562
-MD5sum: 2f81022845156e5f079dc121968298b9
-SHA1: f8baf07ec44d0fe8f36617a5d53efdc5b46dd230
-SHA256: 71571707b1337c92a88a3896749279dfbf4bc9f001c491c62ecbb12672689607
-Section: 辅助插件
-Priority: optional
-Author: Mao
-Name: 淘宝优惠券
-Sponsor: admin@25mao.com
-
-Package: com.amywhile.aemulo
-Version: 1.1.2
-Architecture: iphoneos-arm
-Maintainer: Amy While <support@anamy.gay>
-Installed-Size: 1876
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), ws.hbang.alderis (>= 1.1)
-Filename: ./debs/com.amywhile.aemulo.deb
-Size: 568550
-MD5sum: 8e187f6fe98d378297377197394f28d8
-SHA1: 3bcb5b33e0323f764ce285aa86156303aa7ee9da
-SHA256: ff4274873e63862db0c791c72c2d10f94f7106d140dcba5707ca77cf3953891e
-Section: Tweaks
-Description: NFC Frickery
-Tag: cydia::commercial, compatible_min::ios13.0
-Author: Amy While <support@anamy.gay>
-Depiction: https://chariz.com/buy/aemulo
-Icon: https://cdn.chariz.cloud/icon/aemulo/icon@3x.png
-Name: Aemulo
-
-Package: com.anthopak.videoswipes
-Version: 1.4.3
-Architecture: iphoneos-arm
-Maintainer: AnthoPak <anthopakdev@gmail.com>
-Depends: firmware (>= 11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
-Filename: ./debs/com.anthopak.videoswipes.deb
-Size: 665574
-MD5sum: e3a5f0a1d61aaf4470a35750b7eba378
-SHA1: a2dc3455934e3f97d9647a5d32fb5ad124e571ab
-SHA256: d562cd1a9574da0eb8c8c15b0d0d0fe9a663095b694369dfea44102d256f6e65
-Section: Tweaks
-Homepage: https://repo.anthopak.dev
-Description: Swipe gestures for video players (native and Youtube)
-Author: AnthoPak <anthopakdev@gmail.com>
-Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.videoswipes.php
-Icon: https://repo.anthopak.dev/assets/com.anthopak.videoswipes/icon.png
-Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.videoswipes.json
-Name: VideoSwipes
-Sileodepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.videoswipes.json
-
-Package: com.ball.copylog.cn
-Version: 1.5.3
-Architecture: iphoneos-arm
-Depends: mobilesubstrate
-Filename: ./debs/com.ball.copylog.cn.deb
-Size: 7384
-MD5sum: 7f0331ebfd25afde09d58115d4544310
-SHA1: 51bd391f7af5d3de41356467722ac9ac9e1e07b8
-SHA256: 68b6d59a58815c64f98811ff9ed92f591747407d91546f03d6b3b33c9b97eba1
-Section: 嗨-汉化
-Author: Ball <ball@hackcn.net>
-Name: CopyLog 简体中文包
-
-Package: com.creaturecoding.libcspreferences
-Version: 1.5.7
-Architecture: iphoneos-arm
-Maintainer: CreatureSurvive <support@creaturecoding.com>
-Installed-Size: 5156
-Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
-Filename: ./debs/com.creaturecoding.libcspreferences.deb
-Size: 1660458
-MD5sum: b22385ec260f6692a80964f7d3c8de44
-SHA1: 2e1eae3c4453c81efc6fe674abf65ba612ac9a7a
-SHA256: 286ae1badd8a5cc8c83d17b366e3e281b56a495e7d97606a6e2c82c9c1f026e1
-Section: System
-Homepage: https://creaturecoding.com/
-Description: A Preference Library that doesn't suck!
-Tag: compatible_min::iOS9
-Author: CreatureSurvive <support@creaturecoding.com>
-Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
-Name: libCSPreferences
-Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
-
-Package: com.creaturesurvive.libcscolorpicker
-Version: 1.0.6
-Architecture: iphoneos-arm
-Maintainer: CreatureSurvive <support@creaturecoding.com>
-Installed-Size: 960
-Pre-Depends: firmware (>= 7.0)
-Filename: ./debs/com.creaturesurvive.libcscolorpicker.deb
-Size: 306782
-MD5sum: 38dd3e534e55b7e8561b6998e7238bcf
-SHA1: 0bb3dae1f7829b85caf713871d49536ca3b3d915
-SHA256: d18fb6958d26f1ff37e2bfe5b895447666c7441235080cea12c98fe156f5533a
-Section: System
-Homepage: https://creaturecoding.com/
-Description: A minimal color picker library for developers
-Tag: purpose::extension, compatible_min::iosiOS7
-Author: CreatureSurvive <support@creaturecoding.com>
-Depiction: https://creaturecoding.com/?page=depiction&id=libcscolorpicker
-Name: libCSColorPicker
-Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcscolorpicker
-
-Package: com.cydiabc.enchant
-Version: 1.3.2
-Architecture: iphoneos-arm
-Maintainer: MainRepo
-Installed-Size: 496
-Depends: mobilesubstrate
-Conflicts: com.laughingquoll.quart
-Filename: ./debs/com.cydiabc.enchant.deb
-Size: 82382
-MD5sum: 767c136201cce6041f8b6ac168545e9b
-SHA1: dd85964e24b46b17f057be3c44220db756641ab8
-SHA256: ff9946441267b4453ed137b829e351b8d046c952999468dde1a4d43f0c91df4c
-Section: 系统
-Description: 优化iPhone通知内容效果，具体效果预览截图
-A12: 1
-Author: P2KDev
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Icon2: 12.png
-Name: Enchant通知效果增强
-Sponsor: Ai-小苹果™
-
-Package: com.cydiabc.shuffle2
-Version: 1.3.4
-Architecture: iphoneos-arm
-Maintainer: Ai-小苹果
-Installed-Size: 2000
-Depends: com.creaturecoding.libcspreferences
-Conflicts: com.cpdigitaldarkroom.placeholder
-Filename: ./debs/com.cydiabc.shuffle2.deb
-Size: 482894
-MD5sum: 5982150660f8cd3db2d9ce50d3c1fd36
-SHA1: 424ad5605c964c6fa28f45a5e219a9e6dfe61fc2
-SHA256: 4f4f7d9f97da49398bb610ac2d394540d0997c63e1216a713779bb3f8ce75659
-Section: 系统
-Description: 为设置选项分类/更稳定,类似明美的设置分类，本版本为源主自用旧版
-A12: 1
-Author: CreatureSurvive
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Icon2: 12.png
-Name: Shuffle设置归类【旧版】
-Sponsor: Ai-小苹果
-
-Package: com.miro.libmiro
-Version: 1.0.19
-Architecture: iphoneos-arm
-Maintainer: MiRO <tweaks_support@miro92.com>
-Installed-Size: 1676
-Depends: firmware (>= 12.0), com.rpetrich.rocketbootstrap
-Filename: ./debs/com.miro.libmiro.deb
-Size: 462112
-MD5sum: 6a30fa741c99113ab4c2abda60e52c57
-SHA1: 6666f222d1c9574514e14a546379ab2ba68f0b52
-SHA256: bea2eb029f530032ffb826e4a9918880483d64054e19abd935c00743e77d593c
-Section: Development
-Description: Shared library for my tweaks.
-Tag: role::developer, compatible_min::ios12, compatible_max::ios14
-Author: MiRO <tweaks_support@miro92.com>
-Depiction: https://miro92.com/repo/depictions/?p=com.miro.libmiro
-Name: libMiRO
-
-Package: com.miro.libmiroprefs
-Version: 1.0.8
-Architecture: iphoneos-arm
-Maintainer: MiRO <tweaks_support@miro92.com>
-Installed-Size: 1488
-Depends: firmware (>= 12.0)
-Filename: ./debs/com.miro.libmiroprefs.deb
-Size: 530730
-MD5sum: e5a8ad43b1658c9a7b72176f89bda4f9
-SHA1: cbc095084ccddc9405069f73ca873bc10eef03b5
-SHA256: 353227d0b0a7f6bb5c3dee5542983fc337e142a671f19e304fe34ac4d99f3ec5
-Section: Development
-Description: Shared library for my tweaks' preferences.
-Tag: role::developer, compatible_min::ios12, compatible_max::ios14
-Author: MiRO <tweaks_support@miro92.com>
-Depiction: https://miro92.com/repo/depictions/?p=com.miro.libmiroprefs
-Name: libMiROPrefs
-
-Package: com.miro.shortmoji2
-Version: 1.1.6
-Architecture: iphoneos-arm
-Maintainer: MiRO <tweaks_support@miro92.com>
-Installed-Size: 2716
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11), applist, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap, com.miro.libmiro (>= 1.0.16), com.miro.libmiroprefs (>= 1.0.6)
-Conflicts: com.cpdigitaldarkroom.barmoji, com.udevs.dockx, com.ya7yajb.shortmoji, com.miro.shortmoji
-Filename: ./debs/com.miro.shortmoji2.deb
-Size: 944232
-MD5sum: 83d8ff169634aae5ac32ecb4c1be29ea
-SHA1: 80066d9b3496e94934ef62a9dc73677fbf7d64f1
-SHA256: 00685bb917e85b1cd1620c24d4bb68dc049731af5c5da1500ac5b46298744899
-Section: Tweaks
-Description: #1 Keyboard Tweak.
-Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
-Author: MiRO <tweaks_support@miro92.com>
-Depiction: https://miro92.com/repo/depictions/?p=com.miro.shortmoji2
-Icon: file:////Library/PreferenceBundles/Shortmoji.bundle/Header.png
-Name: Shortmoji 2
-
-Package: com.opa334.ccsupport
-Version: 1.3.6
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 386
-Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
-Conflicts: com.ioscreatix.silo
-Replaces: com.ioscreatix.silo
-Provides: com.ioscreatix.silo
-Filename: ./debs/com.opa334.ccsupport.deb
-Size: 88552
-MD5sum: ffba331b967c1d60afa6bd2696e82f60
-SHA1: 2134fe6095a85493ccec468df549d4fb1f923869
-SHA256: ad1b5927acc196be835c6a57f183fb9a4ea57b272e4a5fb3941955721fae1eb9
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
-Description: Support tweak for CC modules!
-Tag: purpose::extension
-Author: opa334 <opa334@protonmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
-Dev: opa334
-Name: CCSupport
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.opa334.libundirect
-Version: 1.1.3
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 307
-Filename: ./debs/com.opa334.libundirect.deb
-Size: 16114
-MD5sum: e38779f80f4db9c81a34e0a8d5fe6660
-SHA1: 54f93f6df61efbe4da491766cdb645fd2c6150dc
-SHA256: dca5bfc973771799eb2199fb6eff2a4378d8ff295d49573c4c4db9620fac4918
-Section: Development
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libundirectDp
-Description: Patchfinder and rebinder for objc_direct methods
-Tag: purpose::library
-Author: opa334 <opa334@protonmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libundirectDp
-Dev: opa334
-Name: libundirect
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.spark.libsparkapplist
-Version: 1.0.10
-Architecture: iphoneos-arm
-Maintainer: Spark
-Installed-Size: 404
-Filename: ./debs/com.spark.libsparkapplist.deb
-Size: 55046
-MD5sum: 86686611706e1be1501569a1f48edc02
-SHA1: 56ec0e84f987954f0cb612ea3e09befd52cf9d37
-SHA256: 642781fbbf40b5614d727c1f7516a931544c2fea18db1dffde1185de69ceec12
-Section: System
-Description: AppList alternative
-Tag: role::developer
-Author: Spark
-Name: libSparkAppList
-
-Package: com.sutuplus.appsyncunified
-Version: 90.0
-Architecture: iphoneos-arm
-Maintainer: Carby <super.cat.rabbit@gmail.com>
-Installed-Size: 58
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.4.1)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
-Replaces: us.hackulo.appsync50
-Provides: appsync
-Filename: ./debs/com.sutuplus.appsyncunified.deb
-Size: 58308
-MD5sum: 7d59860b451adefca43c17350cd2b0c4
-SHA1: 44628a6887b045fe1f278e9c1bcb89c52fb055f2
-SHA256: efab37b49fe1f2b082a3f2d0b14e4e6e5c4ccdcebbfb3240e657fd1da6e1f922
-Section: 软件增强
-Homepage: http://apt.sutuplus.com/pkg/com.sutuplus.appsyncunified
-Description: 本插件安装包来自苏兔源
-Author: 公众号：苏兔（bysutu） <super.cat.rabbit@gmail.com>
-Depiction: http://apt.sutuplus.com/pkg/com.sutuplus.appsyncunified
-Name: AppSync Unified - 绕过IPA签名验证
-
-Package: com.tigisoftware.filza64bit
-Version: 3.9.0-2
-Architecture: iphoneos-arm
-Maintainer: TIGI Software
-Installed-Size: 21860
-Depends: zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza
-Filename: ./debs/com.tigisoftware.filza64bit.deb
-Size: 8476100
-MD5sum: fdb2070de9db82d073aa2428b80486c4
-SHA1: 856ca8948b17ed22c579798de5b7c4a8ee15d6b3
-SHA256: c18d8e8ec921726abe31e85b9cff0453359c5d907143af1131c3dd27c16f7720
-Section: Utilities
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
-Author: TIGI Software
-Name: Filza File Manager 64-bit
-
-Package: com.udevs.compactbatteryavocado
-Version: 2.0.6
-Architecture: iphoneos-arm
-Maintainer: udevs
-Installed-Size: 456
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
-Filename: ./debs/com.udevs.compactbatteryavocado.deb
-Size: 151766
-MD5sum: db27045a4de9fdd05e30851aecee1d22
-SHA1: 28218f28992419bb82c0787c916b422957fcb8e6
-SHA256: 6a3038a538b2909f19721bb01579985a158d6d1fb4ec8b466e4e4d5131e02290
-Section: Tweaks
-Description: Show battery percentage on 2x2 battery widget
-Author: udevs
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.compactbatteryavocado
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.compactbatteryavocado/icon/icon.png
-Name: CompactBatteryAvocado
-
-Package: com.udevs.perseus
-Version: 1.2.3
-Architecture: iphoneos-arm
-Maintainer: udevs
-Installed-Size: 444
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), com.udevs.vexillarius
-Filename: ./debs/com.udevs.perseus.deb
-Size: 139954
-MD5sum: be7bcb0c1881e92be9e9ec1d2fb9c456
-SHA1: 86acb1b4c71ab150e0727a9c5c850c4579e7723a
-SHA256: 460f04f6ac46fb16e122cb82fff5a8d55e28654078a5a482e1b097661e8d2da3
-Section: Tweaks
-Description: Unlock iPhone with Apple Watch
-Author: udevs
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.perseus
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.perseus/icon/icon.png
-Name: Perseus
-
-Package: com.udevs.vexillarius
-Version: 0.0.3
-Architecture: iphoneos-arm
-Maintainer: udevs
-Installed-Size: 136
-Filename: ./debs/com.udevs.vexillarius.deb
-Size: 8430
-MD5sum: b288c4ac77b6f67a00e0655c48a0c994
-SHA1: 988f96d55d23ec63ef5ac0f4b7e4c2bf08e410a4
-SHA256: c67e96ed8feaddcef18f6b543f4a0f1899c3ca403d35c4b06df1fb877fd17cbc
-Section: System
-Description: Standard Bearer
-Tag: role::hacker
-Author: udevs
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vexillarius
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vexillarius/icon/icon.png
-Name: vexillarius
-
-Package: com.xybp888.callassist14
-Version: 2.2.0
-Architecture: iphoneos-arm
-Maintainer: xybp888 <8657156@qq.com>
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap (>= 1.0.10~beta1)
-Filename: ./debs/com.xybp888.callassist14.deb
-Size: 2033578
-MD5sum: 937a3bc54ef70ca9750e2beff88f1c74
-SHA1: 0537ba38909ef0e2e3c6d3c8ad704313c588dae1
-SHA256: 0cb118bbf03e0bf275339541fb5c4944b729d9ccdd3db388c07937b49b4b0a33
-Section: Tweaks
-Priority: optional
-Description: 电话助手授权版本,T9双卡选卡拨号键盘,短信双卡选卡,通话录音,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
-Author: xybp888 <8657156@qq.com>
-Depiction: https://apt.htv123.com/view/294
-Icon: file:///Library/PreferenceBundles/CallAssistSetting.bundle/CallAssistIcon@3x.png
-Name: 电话助手iOS14-正式版
-Sileodepiction: https://apt.htv123.com/sileo/294
-
-Package: com.xybp888.magiciannojailbreak
-Version: 0.0.1-401
-Architecture: iphoneos-arm
-Maintainer: xybp888 <8657156@qq.com>
-Installed-Size: 560
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.xybp888.magiciannojailbreak.deb
-Size: 154060
-MD5sum: fd89758f393fbe022910f979e282fbb8
-SHA1: 571aa7b1bdbb2fde6592fbdab1bcfdf5cf080a4c
-SHA256: 68133f8277ce0bff479da8ac4a925f5616abda2b203dfbc7411a70c76ce39f48
-Section: Tweaks
-Description: 本插件仅供学习之用,请于24小时内卸载,一切法律责任与本插件和作者无关,支持最新版本的工行,农行,交通,中国银行,建设银行,南京银行,浦发银行,中信银行,广发银行,工行e联,邮政银行,光大银行,阳光慧生活,徽商银行,徽商信用卡,T3出行
-Author: xybp888 <8657156@qq.com>
-Depiction: https://apt.htv123.com/view/316
-Name: 魔术师
-Sileodepiction: https://apt.htv123.com/sileo/316
-
 Package: com.yourepo.lly.prozs
 Version: 3.5.7
 Architecture: iphoneos-arm
@@ -465,140 +16,6 @@ Depiction: https://repo.lenglengyu.top/packageInfo/prozs.html
 Icon: file:///Library/PreferenceBundles/prozs.bundle/icon@2x.png
 Name: Pro助手
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/prozssileo
-
-Package: com.yourepo.lly.prozs
-Version: 3.5.7
-Architecture: iphoneos-arm
-Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 3088
-Depends: mobilesubstrate, com.creaturecoding.libcspreferences, preferenceloader
-Filename: ./debs/com.yourepo.lly.prozs.deb
-Size: 1186258
-MD5sum: 9edda4f2ba665e1e33a357ac64ba10a8
-SHA1: ea1dcaeedd0c072539f9123d5f33c84dce701252
-SHA256: 0fa5f6cbcd65923c4801ea77cfaf6bbfeb4196e1c1cc72570c4792cd6b31e016
-Section: Tweaks
-Description: 已适配A12。各类常用app开启Pro权限，相关app商店下载即可。即将添加更多app。
-Author: lenglengyu
-Depiction: https://repo.lenglengyu.top/packageInfo/prozs.html
-Icon: file:///Library/PreferenceBundles/prozs.bundle/icon@2x.png
-Name: Pro助手
-Sileodepiction: https://repo.lenglengyu.top/packageInfo/prozssileo
-
-Package: fun.yfyf.beta.bigbangev
-Version: 5.3.0
-Architecture: iphoneos-arm
-Maintainer: EVAN <215288968@qq.com>
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
-Filename: ./debs/fun.yfyf.beta.bigbangev.deb
-Size: 2141942
-MD5sum: 4c9afc6aa6db62c88b4351840ef85994
-SHA1: 6da3b4acb6925d209d0b619a417844c70c633756
-SHA256: f85ab5d8f6d5a64b810575589f3837b8cb4e1aca6b74318a38ef1832e606db8e
-Section: Tweak
-Homepage: https://beta.yfyf.fun
-Description: 让文字处理变得快捷并有趣
-Tag: role::enduser
-Author: EVAN <215288968@qq.com>
-Depiction: https://beta.yfyf.fun/depiction/web/fun.yfyf.beta.bigbangev.html
-Icon: https://beta.yfyf.fun/assets/fun.yfyf.beta.bigbangev/icon.png
-Moderndepiction: https://beta.yfyf.fun/depiction/native/fun.yfyf.beta.bigbangev.json
-Name: BigBangEv
-Sileodepiction: https://beta.yfyf.fun/depiction/native/fun.yfyf.beta.bigbangev.json
-Someotherentrytocontrol: True
-Sponsor: EVAN <215288968@qq.com>
-Tags: compatible_min::ios13.0, compatible_max::ios14.4
-
-Package: jp.soh.reprovision
-Version: 0.8.3~release
-Architecture: iphoneos-arm
-Maintainer: Soh Satoh
-Depends: firmware (>= 9.0)
-Conflicts: com.matchstic.reprovision
-Filename: ./debs/jp.soh.reprovision.deb
-Size: 16788406
-MD5sum: 958f8e5173eff463fc0318dcfdcf0bec
-SHA1: 2edb19ea04835765c95ba8655f82d194e01601e1
-SHA256: 319aae47b1fb1b1821904e7abd9b25b1049311931cec191e0b57f4a22ce99127
-Section: Utilities
-Priority: optional
-Description: Re-sign applications on your device
-Author: Soh Satoh, Matt Clarke
-Dev: Matt Clarke
-Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
-Name: ReProvision Reborn
-
-Package: kupord.fonts.mwzt2
-Version: 2.8
-Architecture: iphoneos-arm
-Maintainer: kupord
-Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/kupord.fonts.mwzt2.deb
-Size: 3237530
-MD5sum: 44f72550c4e9068cf9c2efcec7e7eba1
-SHA1: cf10f90de328b726aba6151e29ff3790962afd90
-SHA256: 17559aebcf141cab6f6dfce450f943eba63dcaec7aa304346203c7247b46f8ef
-Section: Fonts
-Description: 此版本由建哥特别修改盲文字体 自动识别iOS11~14系统安装 卸载后自动还原
-Author: kupord
-Depiction: https://kupord.github.io/web/description.html?id=mwzt2
-Name: kupord盲文字体建哥特别修改版(iOS11-14)
-
-Package: lunotech11.Legizmo
-Version: 1.1-21DA211738i
-Architecture: iphoneos-arm
-Maintainer: lunotech11
-Installed-Size: 2904
-Depends: firmware (>= 13.0), mobilesubstrate, gsc.telephony
-Replaces: lunotech11.Legizmo
-Filename: ./debs/Legizmo-Release-Internal-1.1-21DA211738i.deb
-Size: 349572
-MD5sum: 297f2564e9ce2e1f9e7d5a6817ef7977
-SHA1: 5baf4c5d1111b924c043e210f124df264fdbde4e
-SHA256: dbb731633da69661f639cf4c5c9f7f8c6987235c9b108b62192711c58b6056db
-Section: Tweaks
-Description: Allow iOS to pair with newer versions of watchOS
-Tag: cydia::commercial
-Author: lunotech11
-Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
-Name: Legizmo (Internal Release)
-
-Package: lunotech11.Legizmo
-Version: 1.1-21DA231936i
-Architecture: iphoneos-arm
-Maintainer: lunotech11
-Installed-Size: 2920
-Depends: firmware (>= 13.0), mobilesubstrate, gsc.telephony
-Replaces: lunotech11.Legizmo
-Filename: ./debs/Legizmo-Release-Internal-1.1-21DA231936i.deb
-Size: 350968
-MD5sum: c38bd4d2eef981a1dc2e6cefd5fc8aab
-SHA1: 2589344f9a42fa3a5e11f51dbb69e90ec8bba37f
-SHA256: ffc1274aedcb4c104c29a8df05dddcfbfda58666b0490f1fe7370ca0b49e671a
-Section: Tweaks
-Description: Allow iOS to pair with newer versions of watchOS
-Tag: cydia::commercial
-Author: lunotech11
-Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
-Name: Legizmo (Internal Release)
-
-Package: lunotech11.Legizmo
-Version: 1.1-21NA061247i
-Architecture: iphoneos-arm
-Maintainer: lunotech11
-Installed-Size: 2860
-Depends: firmware (>= 14.0), mobilesubstrate, gsc.telephony
-Filename: ./debs/Legizmo-Release-Internal-1.1-21NA061247i.deb
-Size: 335312
-MD5sum: bbca5a0bfb875ae26673edde81e8791d
-SHA1: c06f76962351d899a8347ccd90a7901ddbc51db0
-SHA256: e038fb8ce1b78befab915cd3eedbdfe7551f6abdde33eddbfdb7635b324a3735
-Section: Tweaks
-Description: Allow iOS to pair with newer versions of watchOS
-Tag: cydia::commercial
-Author: lunotech11
-Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
-Name: Legizmo (Internal Release)
 
 Package: lunotech11.legizmo
 Version: 1.1-21DA211738i
@@ -619,43 +36,6 @@ Author: lunotech11
 Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
 Name: Legizmo (Internal Release)
 
-Package: me.tomt000.copylog
-Version: 1.5.3
-Architecture: iphoneos-arm
-Maintainer: TomT000
-Installed-Size: 4392
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/me.tomt000.copylog.deb
-Size: 2073890
-MD5sum: 9ea9167f7e4b19570e12c072d1e7d23d
-SHA1: beb622fa6df46746f94abbe5ce96a2daa5f550c5
-SHA256: bfab341bcacbcd269a32f6998bbaf22b93de71d45cc8cebdec8a675c225650bf
-Section: Tweaks
-Description: Clipboard history manager for iOS!
-Author: TomT000
-Name: CopyLog
-
-Package: net.myxxdev.mybloxx14
-Version: 3.071121-14-BFM
-Architecture: iphoneos-arm
-Maintainer: MYXXdev
-Installed-Size: 2232
-Pre-Depends: dpkg
-Depends: applist, com.opa334.ccsupport, com.opa334.libundirect, firmware (>= 14.0), mobilesubstrate, plutil, preferenceloader, ws.hbang.common
-Conflicts: com.ceadd.blockyoux-procursus, com.ceadd.blockyoux, com.ceadd.blockyou10, com.ceadd.blockyou11, com.ceadd.blockyou12, com.droomone.tabblocker, com.git-anish.mdnsrestart, com.nathanaccidentally.mdnsflush, com.myrepospace.reddestdream.minimal, com.myrepospace.basic.basic, com.p2kdev.safariblocker, com.pheux.fixrandomresprings, com.reddestdream.minimalhostsblocker, com.reddestdream.mhbcb, com.sinfool.youtopia, com.thireus.hostscleaner, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblockermegaipv4, com.thireus.untrustedhostsblockermega, com.thireus.untrustedhostsblockerexperimental, net.myxxdev.mybloxx, net.myxxdev.mybloxx10, net.myxxdev.mybloxx11, net.myxxdev.mybloxx13, net.myxxdev.mybloxx4, net.myxxdev.issupervisedbegone, net.myxxdev.mybloxxhipfix, net.myxxdev.mybloxxupdater
-Replaces: com.droomone.tabblocker, com.p2kdev.safariblocker, com.pheux.fixrandomresprings, net.myxxdev.issupervisedbegone, net.myxxdev.mybloxx, net.myxxdev.mybloxx10, net.myxxdev.mybloxx11, net.myxxdev.mybloxx13, net.myxxdev.mybloxx4, net.myxxdev.mybloxxhipfix, net.myxxdev.mybloxxupdater
-Filename: ./debs/net.myxxdev.mybloxx14.deb
-Size: 487820
-MD5sum: 68e5d95ec34cd22bdb61b29bc66e7b6d
-SHA1: 22c7ad727bc2a2be579a262c86557f3d3d8b13d0
-SHA256: 40c51d15f8fb757d0d4f18bcdd2450dd4773d64e47a05af6dd421027b1faa3b5
-Section: Networking
-Description: The most advanced iOS xBlocker!
-Author: MYXXdev
-Depiction: https://myxxdev.github.io/depictions/MYbloXXforiOS/MYbloXXforiOS.html
-Name: MYbloXX for iOS (14+)
-Sileodepiction: https://myxxdev.github.io/depictions/MYbloXXforiOS/MYbloXXforiOS.html
-
 Package: netskao.alipaysteps
 Version: 1.3-2
 Architecture: iphoneos-arm
@@ -663,10 +43,10 @@ Maintainer: Nets
 Installed-Size: 392
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/netskao.alipaysteps.deb
-Size: 131662
-MD5sum: b5f07a897035e648d78b393c565e1ae6
-SHA1: 6a70aff18d487b4e64b7f5d59dd173787d9cd494
-SHA256: e67deae2448816d439443504c933dc2942c87f976e7f950c01eb354f153002cd
+Size: 131666
+MD5sum: 4d8a7f8750128082861d4ae84df711ff
+SHA1: f6ecd29b73c0476527ed42420be06e520c23d838
+SHA256: d732e437e72fea05611fc70b3835b44a51afa370b6a4c702bde190b2b81e2344
 Section: Netskao-Tweaks
 Description: 支付宝自定义步数修改，实时修改，设置位于支付宝-设置页面底部
 Author: Netskao
@@ -679,10 +59,10 @@ Maintainer: Nets
 Installed-Size: 976
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Filename: ./debs/netskao.appdata.deb
-Size: 301942
-MD5sum: 1f215ac8f8a901b652a7e3d87b41760c
-SHA1: 91e848a75a55a0d57c9bfff126bd573030ab8a4e
-SHA256: 46a5079c4d5d080a6ae79f43669ee772723379989399aac43ccfa8db74064a52
+Size: 301936
+MD5sum: 0a088ac4f61aef0406bdd85ed1652b28
+SHA1: ef3210cca1da8cc083adefaf166a1e09810f4b0b
+SHA256: e2530e4c28bd20f0ec468c5a7ae114a1769727073970d7a02fd31fbe3e818f0c
 Section: Netskao-Tweaks
 Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
 Author: Fouad Raheb
@@ -695,10 +75,10 @@ Maintainer: Nets
 Installed-Size: 424
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Filename: ./debs/netskao.appshide.deb
-Size: 107316
-MD5sum: 31b5bf5553ef2164bc94016edd756041
-SHA1: 4a6d30a634a9e22c758817d482a3ed83b6ad2e15
-SHA256: b6cb74b8a1d3140c2bcdb09f3e288434c6bd493d2896b1b52dd08ca98c3dd56f
+Size: 107312
+MD5sum: 2fd3305d4f84b645797704da0f961013
+SHA1: 871c698a9c9b42421e8dd8981023ff21cd80aa4a
+SHA256: a2670c469073d74f62cfea0ad1e39f5fb33db908e80f2f9bf2c26cddc87114fc
 Section: Netskao-Tweaks
 Description: AppsHide是一款通过设置选择隐藏桌面和搜索栏应用，隐藏应用无需注销，支持iOS11-14
 Author: Netskao
@@ -712,10 +92,10 @@ Installed-Size: 556
 Depends: mobilesubstrate, firmware (>= 9.0)
 Replaces: netskao.awemepurification
 Filename: ./debs/netskao.awemepurification.deb
-Size: 203864
-MD5sum: 3b24814e1b5de94b65eb4517b8c76ef2
-SHA1: fc338ef494598038c583734b94b00518a9cc15b7
-SHA256: c0a7736ca3fa8c82874b8dfafbfdf2c3179f24acb08d04febc373295b3d9ca65
+Size: 203870
+MD5sum: 707873073968d9e20f7088c064fe3529
+SHA1: 5d07163dbd0219e99ac75920c7059b72b2e031e5
+SHA256: 92b26b01f1aeff6f66d3eca8715aaee2991621096d0af79fbc63133c802598fe
 Section: Netskao-Tweaks
 Description: 抖音净化！设置位于抖音-设置，去除启动广告，去除视频流广告，去除视频流中的直播，去除流量提示，去除青少年提示，去除左下角播放时弹出的商品购买，去除左上角悬浮的推广等，可启用原始按钮或双击视频保存无水印视频活图片，支持保存所有视频或图片，可启用浅色模式或关闭，可启用全局纯净模式，可启用关注二次确定，可启用显示所有视频进度条，可启用双击快捷复制文案，可启用首页或非首页自动播放下一条，可启用iWall插件快速设置背景，可禁用头像挂件显示，可禁用弹出红包，可禁用全局状态栏，可禁用首页本地页面，可禁用摇一摇找朋友，可禁用分享面板朋友，可禁用分享面板应用，可禁用分享面板一起看视频，可禁用视频来源显示，可禁用首页按钮刷新列表，可禁用评论中的置顶评论，可禁用评论中的链接广告，可禁用底部朋友按钮，可禁用底部发抖音按钮，可禁用底部消息按钮，可禁用首页左上角直播按钮，可禁用首页右上角搜索按钮，仅支持15.7.0版本及以上(最后完美兼容版本16.2.0)，此插件已停止维护！！！
 Author: Netskao
@@ -728,10 +108,10 @@ Maintainer: Nets
 Installed-Size: 256
 Depends: firmware (>= 9.0), mobilesubstrate
 Filename: ./debs/netskao.bdtbnoads.deb
-Size: 86670
-MD5sum: c1f775cb6f712aa8a77a663f5cc8b37b
-SHA1: a1a164236e8b0a77d0cd92bc452a946b51a4c672
-SHA256: f0714121a9259824278c14120a3352a5e59843940e5431606d928110ee19053e
+Size: 86672
+MD5sum: 456d77844884fb16c79bf87a7c4af8a4
+SHA1: 38a377e707c751ebd97ac2e7cd2b1bc3509877d3
+SHA256: 4b37bd27acf6e2251cc260207bf6d1ea4ed802635a2647bfc34f193efbf223ba
 Section: Netskao-NoAds
 Description: 百度贴吧去除启动广告，去除贴中广告，去除吧内信息流中直播，去除吧内相关推荐，去除进入某些吧随机弹出的广告窗口，去除右下角随机出现的悬浮窗，去除吧内签到后弹出的推荐窗口，去除首页信息流中视频(不影响视频版块视频)，去除首页顶部的直播选项和高考选项，去除图片翻页到末尾时弹出广告，增加贴内详情视频长按保存到相册，增加底部视频板块双击保存到相册
 Author: Netskao
@@ -744,10 +124,10 @@ Maintainer: Nets
 Installed-Size: 252
 Depends: firmware (>= 9.0), mobilesubstrate
 Filename: ./debs/netskao.bdwphooks.deb
-Size: 79494
-MD5sum: 23ca062a75665f6a2e89902a300a1a80
-SHA1: 16c91bb8acde62efdcab14c8b6682067aee95a4a
-SHA256: 772d503b4fcbcd1a3a34fde5b72662102f8232d686b3f602feb10729d316a2fb
+Size: 79496
+MD5sum: ed35ea821f86cb59eaa3a6314895e963
+SHA1: 43e36b50c37f1aef840bb61478ffaae742a5ce5c
+SHA256: 5cac581341a84529832ab0be0a46770072ba7ab28a9f0277298db08b63177b0d
 Section: Netskao-Tweaks
 Description: 为百度网盘下载文件列表增加直接分享文件功能和快速在Filza中查看该文件功能，免去每次进入路径寻找文件的繁琐方式，使用方式:长按已下载文件即可。另外附加去除所有广告等
 Author: Netskao
@@ -760,10 +140,10 @@ Maintainer: Nets
 Installed-Size: 19988
 Depends: firmware (>= 9.0), mobilesubstrate
 Filename: ./debs/netskao.bilibilipure.deb
-Size: 9388652
-MD5sum: 916a0eda355e25942de4ce39ea7e33b6
-SHA1: 0366c8533ffa4682c1c595106d5fff49dd70561d
-SHA256: 33383d35fda72d2cfa7c94a7ed3023dcfe6d57e5a0e8b261e2c455c4a39973ec
+Size: 9388658
+MD5sum: 3d7dfbdd9a0e7a7dc6d1a1fc692c8af2
+SHA1: ba4e25f4f96573aa7aa0ffa9046f70a6d4596dc8
+SHA256: 79c786c97fb187335a46355b42282049344a701609c90e0e700aae6ae0bb1fa5
 Section: Netskao-Tweaks
 Description: 哔哩哔哩净化，详情净化查看预览图，设置位于哔哩哔哩-设置页面顶部(此插件暂不支持iPad，因手头上iPad暂时没越狱搞起来比较麻烦且哔哩哔哩iPad端各个模块都不相同)
 Author: Netskao
@@ -776,10 +156,10 @@ Maintainer: Nets
 Installed-Size: 124
 Depends: firmware (>= 11.0), mobilesubstrate, com.opa334.ccsupport
 Filename: ./debs/netskao.ccbadgeclear.deb
-Size: 16728
-MD5sum: 151c38961b703865cff8dce8400f9034
-SHA1: d733fa5581d1dea46ac0e4b100d79c9b1b39287e
-SHA256: 6b3d3b7523bf20dbc48189532dfb4d8a3bf9346c55b02c33d8e048bb48243322
+Size: 16730
+MD5sum: 9fe48a1937b781e19b41490c17481e54
+SHA1: 9b459f59bc3ffbdc84da85efdb38e28f794193a6
+SHA256: fe8214ec234ca1e8c581e464dd4bc14a7c5361e1f8f43701a1f0763170d70d49
 Section: Netskao-Tweaks
 Description: 通过控制中心快捷清理桌面所有应用已经显示的角标，支持iOS11-13，设置-控制中心-自定控制内添加后使用
 Author: Netskao
@@ -793,10 +173,10 @@ Installed-Size: 136
 Depends: firmware (>= 12.0), mobilesubstrate
 Conflicts: netskao.disableshortcutsnotification
 Filename: ./debs/netskao.disableautomationnotice.deb
-Size: 8954
-MD5sum: fd6cfbea604222c135a66545b454d25f
-SHA1: f9a1360b4de149172c18951a54243f5e9077f916
-SHA256: b05bf3430f3894150082b1b71f483b5f10ee7667e5017e93358bc557aa681df9
+Size: 8960
+MD5sum: 49d3fa1ce6db9c32aa6ad65ae0dff04a
+SHA1: a84fa5f6cd4e2387ebbdb18a99336b6b28f9c491
+SHA256: 5884f9d453b9874f214e68299414ed75bedb1cf0960cb2df9ded59d6808ef5fb
 Section: Netskao-Tweaks
 Description: 禁用快捷指令自动化自动执行后的通知，仅禁用自动化不包含其他，附加允许将捷径通过文件形式分享
 Author: Netskao
@@ -809,10 +189,10 @@ Maintainer: Nets
 Installed-Size: 172
 Depends: mobilesubstrate, com.tigisoftware.filza64bit
 Filename: ./debs/netskao.filzacrack.deb
-Size: 37366
-MD5sum: f76b6d4f288d9139946a107d14fee908
-SHA1: 2912c4315f4382563a3308a205404600173b7f7c
-SHA256: 0abe191828d645014c3cc90ce0b843d83c9e33239e61c66000788c6e99364a8e
+Size: 37372
+MD5sum: 7d5ebe94c7a284aca485699ddc6db3dc
+SHA1: cfada863c85c96ac03776f808fab1427a9acd6f6
+SHA256: c9db1bdec6711c25ae18c822e15d7d865bb4077655a2b53c98f90f2d8ee75ee6
 Section: Netskao-Cracks
 Homepage: https://tigisoftware.com/cydia/
 Description: Filza解锁全功能无限制，主程序官方源安装即可
@@ -826,10 +206,10 @@ Maintainer: Nets
 Installed-Size: 356
 Depends: firmware (>= 9.0), mobilesubstrate
 Filename: ./debs/netskao.iqiyinoads.deb
-Size: 113178
-MD5sum: f36d68263e782e7ea9ff74539866d9d7
-SHA1: 536c5f8e11e628afce226923ad49ecbd609bc800
-SHA256: 3553d8453d517afc9317e0225b61035e31a7bc8c0ab5dd4c1ac3383e1e84cdfd
+Size: 113184
+MD5sum: 4e4bc629707305dfd49d17e2c528f64f
+SHA1: f9fd9f3b51f55d9e92a77e0e60cbe308836c79cd
+SHA256: c571956c80289d365c86320626c2190653d56fa3ddc2145d58fd90cf444987d1
 Section: Netskao-NoAds
 Description: 爱奇艺去启动广告，去除首页顶部横幅中插入的广告，去除视频信息流中广告，去除播放页面下方推荐视频中的广告，去除播放前广告，去除播放时水印，去除播放时右侧推荐视频，去除历史播放顶部广告，去除我的页面收藏内和下载内底部推荐视频，去除我的页面公益和限时问卷和免流量服务和我的微服务和创作中心选项，去除底部随刻视频和发现按钮等
 Author: Netskao
@@ -842,10 +222,10 @@ Maintainer: Nets
 Installed-Size: 256
 Depends: firmware (>= 9.0), mobilesubstrate
 Filename: ./debs/netskao.jdnoads.deb
-Size: 82282
-MD5sum: bec89c7458630c8bef9d26ab07d524fb
-SHA1: 19c08fbe6ac828bcb1fb5ab6faf8cb3fc638a394
-SHA256: 3da84360781e1d9a17890490b038b51008b8a6f68c254a66e48dc95465b7a9f2
+Size: 82292
+MD5sum: f822817ca66b4b19b1f264a2753433c5
+SHA1: e18d88f14e7859ea1363b403b42d153e863ae238
+SHA256: 3b5637105b52c5519ab993664b53ddee369b7e5fe581a5406f70273a8e4e0f3b
 Section: Netskao-NoAds
 Description: 京东去除启动广告，去除搜索列表中广告商品，去除首页信息流中滚动横幅，去除首页信息流中618精选会场，去除首页下拉活动，去除首页右下角悬浮窗，去除分类页面顶部横幅，去除发现页面顶部横幅，去除购物车推荐商品，去除我的页面随机出现的悬浮窗，去除我的页面精选推荐(其他模块自带可关闭)，去除随机弹出的推广窗口，增加长按保存商品视频和评论视频
 Author: Netskao
@@ -858,10 +238,10 @@ Maintainer: Nets
 Installed-Size: 272
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/netskao.kwyycrack.deb
-Size: 93818
-MD5sum: 740a5b9dfb835517dd16a21166e9ccd5
-SHA1: f9f2603aafe55c742de7ef140940c1da10c96bda
-SHA256: adcf9cc23c045b05d96d2fddf8982917876409a61819c8639191e20734503158
+Size: 93820
+MD5sum: b2dc8ff87d032a6739a57107e9a14010
+SHA1: b702fc949a8df7de8d1f7a5ff23da019e12f2af9
+SHA256: 57c2305c11cbbd93031aac938a4917949fc47a6d1d1d81c8894b311c758b9ef6
 Section: Netskao-Cracks
 Description: 酷我音乐解锁所有歌曲听和缓存限制，解锁所有小说听和缓存限制，解锁所有数字专辑缓存限制，解锁音效和皮肤限制，解锁非大陆地区限制，去除启动广告，去除首页底部推荐列表，去除首页随机弹出的推广提示，去除播放页面正在直播，去除首页左侧设置中没啥用的功能，去除我的页面直播和小说推广和听点别的，去除评分提示，去除顶部随机出现的直播开播提示，去除本地/下载/最近播放/收藏中的推荐，去除底部曲库/直播/视频按钮，增加缓存歌曲导出(下载或本地页面，歌曲操作面板导出，支持自动解密kwm格式)
 Author: Netskao
@@ -875,9 +255,9 @@ Installed-Size: 121
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/netskao.lowpowerbannertips.deb
 Size: 16106
-MD5sum: a1d37b8b6ff58c817390f46a2caf031e
-SHA1: 3fcb25c7f34f9eaf1bc73e557841ee6442245cef
-SHA256: b6b3955a1b25202bfefc3ff4def66b82d6c54229fe9e93c00acf2ce493b1d039
+MD5sum: a209906555c9bfa02259e48a69f4f018
+SHA1: 0de68eeee464561e1fbd5fb1a03b9463aee8ba88
+SHA256: 98af19811000c26c068a80fa495fef63fd0a5560fc5c20fb64fd850d9202b5dc
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=lowpowerbannertipsDp
 Description: 将电池百分之20低电量弹窗改为横幅提示样式
@@ -895,10 +275,10 @@ Maintainer: Nets
 Installed-Size: 320
 Depends: firmware (>= 9.0), mobilesubstrate
 Filename: ./debs/netskao.mjnoads.deb
-Size: 105582
-MD5sum: ff5e09c5a5a613e1f7103a425a601831
-SHA1: 724155ca28001b08b921b99515563a71796f1eea
-SHA256: 967cf061f5b987a96a7354a244d99d12e388d0857a438234a533761f8a554414
+Size: 105586
+MD5sum: 02a8e2dcc56d3f68d935b7789c2397d4
+SHA1: ae43e310483e66e5f90517911ff4c45ffce50a02
+SHA256: c2343ae1d366a0e285cd0a49176e37c313de68d18091f4615d327b90a17f32d9
 Section: Netskao-NoAds
 Description: 米家去除首页横幅广告，去除我的页面横幅广告等，去除底部有品选项
 Author: Netskao
@@ -912,9 +292,9 @@ Installed-Size: 416
 Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
 Filename: ./debs/netskao.networkmanage.deb
 Size: 139254
-MD5sum: 5bc43f8ad91c6b7869d57990aab9c4c2
-SHA1: a25ba7b9676ad973f98e0c956d911ef708380d19
-SHA256: 8b7326112ba74216fd54559704854bd1593d37b4320905c107191ce10233eb1f
+MD5sum: e598ac0c92a8d1dd46382e5cdcc8b9d2
+SHA1: ff46638a19f67f49d84ec0566463dab581acb55d
+SHA256: 19256659931f4fc195957f68186558300df5e54ca2778ca90752f0a1333a07e5
 Section: Netskao-Tweaks
 Description: 管理蜂窝和WIFI联网权限，支持iOS10-iOS14
 Author: Netskao
@@ -929,9 +309,9 @@ Depends: mobilesubstrate, firmware (>= 9.0)
 Replaces: netskao.qqpure
 Filename: ./debs/netskao.qqpurification.deb
 Size: 220092
-MD5sum: 1de4c808f54281fba45b1ae2660b4662
-SHA1: d304040bc3be76dd4350971013daa6e373e34e32
-SHA256: 6213973f2e3f74ab3af211d57f8db5694b60933f45f820bbb2044e059a9433d3
+MD5sum: a9f2daded5ff9f77c1ab160bf350226f
+SHA1: 9651d585f15a23352c50304c201643daac9a85e6
+SHA256: 9a43f354d5e13bf888b110e20023c22489a321a7cc0ba4c75e6d7874b6a3b313
 Section: Netskao-Tweaks
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
 Author: Netskao
@@ -943,10 +323,10 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/netskao.storeswitcher2.deb
-Size: 45936
-MD5sum: 962220e45a8f4700233c677e6a6315e4
-SHA1: a487721ea6208680b02c8d4528fb5f725536ea97
-SHA256: 9166aa18e606c9e506ef31846cd2c18c8f9cbd70ea5caf7b2412dbd0728d01f9
+Size: 45940
+MD5sum: c0c7c23772e522ab49aad52f1d83ff41
+SHA1: 1f957b030e14268be800210801b831a3ee28afb8
+SHA256: 2377db21198d03ec477ed2148c7d4b6974bc045f2e6893d9a2f27ed4220c4809
 Section: Netskao-插件
 Description: 为App Store添加快捷切换账号功能（已经登陆过的账号）App Store头像设置里切换
 Author: subdiox
@@ -960,9 +340,9 @@ Installed-Size: 256
 Depends: firmware (>= 9.0), mobilesubstrate
 Filename: ./debs/netskao.tbnoads.deb
 Size: 81772
-MD5sum: 550deeb54b5435710f8239ab04c64e9a
-SHA1: 2f828047efa545440e8078537d9422edaa55a17e
-SHA256: 0c991329396a83e04ad56ae7974bc5fa1dcd0421e553021fe30b621f889c829f
+MD5sum: 87b55e3215afc333cb0fb26d718910b5
+SHA1: 276576de7d9854f2727f0ebd33a1f18f2b3bd47f
+SHA256: 1d8e26d2efaeb10b52e03f7c02ffffc038b87480caac18830ecd6584d58848e7
 Section: Netskao-NoAds
 Description: 淘宝去除启动广告，去除搜索列表中广告商品，去除购物车推荐和订单列表中推荐商品，逛逛原始按钮保存图片/视频去除水印，增加长按商品视频评论视频保存到相册
 Author: Netskao
@@ -976,9 +356,9 @@ Installed-Size: 256
 Depends: firmware (>= 12.0), mobilesubstrate
 Filename: ./debs/netskao.twitternoads.deb
 Size: 84514
-MD5sum: 20495a8d4402893f1ae1a9d9faeb53ea
-SHA1: 16e685f967e2ef88c4cf45c6edd7c1f7bb793eb6
-SHA256: e05e331dcba6ec937071b89f7804550c1b3f25491b272703527aa88b739217fa
+MD5sum: e067011e2bc92a1bba9f48720ae30d8d
+SHA1: 37c312c997b80556376d6df0f779f8e8a96b213b
+SHA256: 33ac8e47e462be40faeb92eed5484da77c7f5fa334eff647a8b10e3e3523cb17
 Section: Netskao-NoAds
 Description: Twitter去除信息流中广告，去除用户信息流中的推荐关注中的推荐，去除搜索页面趋势信息流中广告，去除左侧中的广告选项和专业版选项，去除首页顶部视频和空间，禁用推特自定义字体，增加喜欢推文二次确定，增加长按视频保存到相册
 Author: Netskao
@@ -991,10 +371,10 @@ Maintainer: Nets
 Installed-Size: 252
 Depends: firmware (>= 9.0), mobilesubstrate
 Filename: ./debs/netskao.txspnoads.deb
-Size: 79538
-MD5sum: 8e2208009ee7a30e3374bc105ea43264
-SHA1: 1d130db8756802847862b92eab48124cf083d13f
-SHA256: f2c43881d247b6670f9568bfc2de536fdeb8861b2b8f300a06089cd3dfd86cd9
+Size: 79530
+MD5sum: faa889a0c2282c2a0d1ab6ca7cad9ab0
+SHA1: 6c7f091fd925a340748ff9a71db4247061d24e4f
+SHA256: 8d319f1b5510af582f67b224d52179ab63fee78b5a64e4c3696128b316498e3b
 Section: Netskao-NoAds
 Description: 腾讯视频去除启动广告，去除首页横幅中插入广告，去除首页下拉推广，去除首页搜索条旁边的游戏和微视按钮，去除全屏播放时暂停广告，去除全屏播放时右下角商品按钮和发电按钮，去除全屏播放时右边AI识别演员按钮，去除播放详情页周边推荐一起玩，去除青少年提示，去除随机弹出的红包提示，去除我的页面顶部随机出现的游戏红包提示，去除我的页面兴趣中心，限时推广，免流量看视频，福利中心，去除底部热点和doki选项，启用iOS13及以上设备暗黑模式等
 Author: Netskao
@@ -1008,9 +388,9 @@ Installed-Size: 738
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/netskao.wechatpurification.deb
 Size: 289348
-MD5sum: bed104314c88ae116737f592bb1cb2fc
-SHA1: 4eb580a55d687ff96221b6d1d13b7030fc92d5d6
-SHA256: 708ff12f2d29ed2aea47b44269b4d4be9167dfb59888e9d6ec8c4a15c981dbed
+MD5sum: 54276312ef8a3780b7a4c94f3a240a2c
+SHA1: 8ade194120e8c91268992990fbce3f25397228b1
+SHA256: a64d652566c88d529955560d931a40051d23c594072edddf18465bb7e438f442
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
 Description: 微信净化，还原聊天本质，干净的微信给你，支持7.0.0及以上版本，设置位于微信-设置
@@ -1028,10 +408,10 @@ Maintainer: Nets
 Installed-Size: 336
 Depends: firmware (>= 10.0), mobilesubstrate
 Filename: ./debs/netskao.weibonoads.deb
-Size: 130118
-MD5sum: 3eac434863283f8795077cd9325ac933
-SHA1: c110edb3b0364323c974cda0fd9009cff144160c
-SHA256: 14aef27f332e971443ad64aa19eaead9432ad6190c13d1fa4c1a2bdf6571ead0
+Size: 130116
+MD5sum: daf43bf502ae4e239eb8c04ecdf3434c
+SHA1: 7fbfe6bdf83ce23048f50c38e04f4e54b8dde27c
+SHA256: 7bdeaa09e3a3c676aa59b57ddbbb0690e364c5baf9207251b43efa863fbad431
 Section: Netskao-NoAds
 Description: 微博去除启动广告，去除首页信息流中广告/热推/推荐，去除发现热点信息流中广告/热推/推荐，去除搜索中广告，去除视频下方广告横幅，去除评论中广告/热推/推荐，去除热搜榜页面底部潮物按钮，去除发现页面热议话题和同城热搜和中间的直播/种草/放映厅/更多按钮，去除发现页面上方的广告横幅和杂七杂八按钮和随机出现的视频广告和活动横幅广告，去除首页顶部故事和今日热点，去除首页顶部随机弹出的红包，去除首页红包悬浮窗，去除首页底部随机出现的热点悬浮窗，去除用户头像上方的挂件，去除信息卡片上的个性装饰，去除底部视频随机弹出的博主更新提示，去除底部小红点，去除进入用户详情页弹出的关注提示，去除我的页面任务和推荐关注，去除全屏视频流中的视频广告，去除视频号流中的视频广告，去除截图后分享提示，去除网址拦截，增加视频详情页面按钮保存任何视频到相册，增加视频流页面双击保存任何视频到相册，支持720P/420P/360P选择等，仅支持微博11.5.0及以上版本。微博极速版，微博国际版去除启动广告，去除信息流中广告等
 Author: Netskao
@@ -1044,10 +424,10 @@ Maintainer: Nets
 Installed-Size: 256
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/netskao.wfnoads.deb
-Size: 81224
-MD5sum: d18c3143ab7923730f868f64fad45bce
-SHA1: 2fd260fbab29d5e4b42a7596308cfbefca073bcc
-SHA256: 63eb5e54d7ce1e127e069ab7944179ce61b10475310841f3813a5390b944f567
+Size: 81222
+MD5sum: f2ce16af26f91309065740fbab4d9afd
+SHA1: 52aa95accb117af0c243254a0737d403d4988594
+SHA256: 2b2839b21da6879b732958a8eeefd2c22bd1a46904f4f25b1cfd2108bcb5ee7b
 Section: Netskao-NoAds
 Description: 威锋去除启动广告，去除贴列表插入广告，去除贴内下方广告横幅，去除我的页面广告横幅，支持6.x所有版本
 Author: Netskao
@@ -1061,9 +441,9 @@ Installed-Size: 2116
 Depends: firmware (>= 11.0), mobilesubstrate
 Filename: ./debs/netskao.wyyyynoads.deb
 Size: 633274
-MD5sum: 4e9d307e6ad66db4c24f94c1decf5bce
-SHA1: 3c7cd0ad6364444891120ec46ad5297a65705870
-SHA256: 6cd6f6900579b72015d2a82dd9bdebde08cbbecba6901fa6ff9d4efde1e90235
+MD5sum: 01363c4e0dd4d8a4ec5cfa05dad0ad2a
+SHA1: a74fb018f3a9e44af9617b564da5d7308ec7368d
+SHA256: f89f2d29db655e193ce045c774dad59f13f8797c5d773f8e1e0428df8ac7597b
 Section: Netskao-NoAds
 Description: 网易云音乐去除启动广告，去除评论区相关信息和广告，去除首页顶部横幅中插入的广告，去除搜索页面顶部广告，去除播放页面顶部右上角在唱，去除左侧设置无关紧要选项，绕过越狱检测可收藏可评论，解除非中国地区播放限制，增加使用原始分享按钮保存任意视频到相册，增加缓存歌曲导出(下载或本地页面，歌曲操作面板导出，支持自动解密ncm格式)
 Author: Netskao
@@ -1076,10 +456,10 @@ Maintainer: Nets
 Installed-Size: 256
 Depends: firmware (>= 10.0), mobilesubstrate
 Filename: ./debs/netskao.xhsnoads.deb
-Size: 80730
-MD5sum: c7e89d3d62ae7f3bdd99bf7541da85ea
-SHA1: 2f02cb547dd7e63a556feb967d13701082d98a0f
-SHA256: 3e86bc34becc2081e9634c9ca8714b8f05ce0fef380f3e4e1bc706d6d7684a77
+Size: 80734
+MD5sum: 93c789191e4595413a274424dc5bef6f
+SHA1: fcc77f111372f4eaa746b415f7cad55aac9f23f4
+SHA256: fdb3c6768a3a0c4e10c133833a31e5a35cb52bec79930d65b0d1ebcb69756d95
 Section: Netskao-NoAds
 Description: 小红书去除启动广告，去除信息流视频流广告，修改原始按钮保存无水印视频，原始按钮保存无水印图片，增加双击快捷保存视频到相册
 Author: Netskao
@@ -1093,164 +473,11 @@ Installed-Size: 236
 Depends: mobilesubstrate, firmware (>= 11.0)
 Filename: ./debs/netskao.zhnoads.deb
 Size: 76446
-MD5sum: 1d7f4bc2c577c62ed6961f26e04166f5
-SHA1: f50ce318dd4643c863fa643fede17c1259b560bd
-SHA256: 6e449f3c1aee337baa6daa2d840f6d05f16f061c70cce00979e144958f373956
+MD5sum: 784c94f86836ad3980ca4ab3a5d83c93
+SHA1: 1f158c37fff20fba9c7a8f379afb8ffec50c7889
+SHA256: 7ac6349636a1057871c2af1e4cc89edeaceb245930c2f0efda3c89402c3bc2d8
 Section: Netskao-NoAds
 Description: 知乎去除启动广告，去除信息流中广告，去除答案中的广告，去除评论广告，去除随机弹出的推广窗口等
 Author: Netskao
 Name: 知乎 NoAds
-
-Package: ru.rj.carbridge13
-Version: 2.0.9k
-Architecture: iphoneos-arm
-Maintainer: ReJail <rejail@rejail.ru>
-Installed-Size: 1195
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.16), com.spark.libsparkapplist (>= 1.0.9)
-Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
-Filename: ./debs/ru.rj.carbridge13.deb
-Size: 415188
-MD5sum: 7da5385e8f5995feae1d0e5cbc7b7eb6
-SHA1: a82749cfe0951d7b704760c013eb205db4d745bb
-SHA256: aad5b3fb8fd7b3120fe93c085391341115aed06c4792399771276c9faac5d5f1
-Section: Tweaks
-Description: Расширение возможностей CarPlay
-Author: leftyfl1p <carbridgetweak@gmail.com>
-Depiction: https://rejail.ru/depiction.php?file=carbridge13
-Name: CarBridge
-Sileodepiction: https://rejail.ru/sileo/depiction.php?file=carbridge13
-
-Package: ru.rj.sleepizy2
-Version: 1.1k
-Architecture: iphoneos-arm
-Maintainer: ReJail <rejail@rejail.ru>
-Installed-Size: 787
-Depends: mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 14.2)
-Conflicts: com.anthopak.sleepizy
-Filename: ./debs/ru.rj.sleepizy2.deb
-Size: 295264
-MD5sum: d81db4c2b93ef027581bb5445db7c8d9
-SHA1: b7005f23a1bfc2a6b48cb8cc8077fb8f3b1e84cf
-SHA256: 6aef53070a6689da0c0345ea3cbf44b4fcaeb16f9801d211f1d930514278e7df
-Section: Tweaks
-Description: Автоотключение вашей музыки iOS 14.2 и выше.
-Author: AnthoPak <anthopakdev@gmail.com>
-Depiction: https://rejail.ru/depiction.php?file=sleepizy2
-Icon: file:///Library/PreferenceBundles/Sleepizy2Prefs.bundle/iconHQ.png
-Name: Sleepizy 2 Rus
-Sileodepiction: https://rejail.ru/sileo/depiction.php?file=sleepizy2
-
-Package: se.nosskirneh.roadrunner
-Version: 1.0~beta4
-Architecture: iphoneos-arm
-Maintainer: Andreas Henriksson
-Installed-Size: 940
-Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader
-Filename: ./debs/se.nosskirneh.roadrunner.deb
-Size: 258416
-MD5sum: 74a41956661f09ea68be7a27848a6b3c
-SHA1: 0b818961311f34f9044b3afc17a591fcd8da2b4f
-SHA256: 789cfc53e7eea4cb9b6d7e508c2581d42fca8e0b71bf6f4af81215a4a2daad81
-Section: Tweaks
-Description: Keep apps alive through resprings
-Author: Andreas Henriksson
-Depiction: https://henrikssonbrothers.com/cydia/repo/depictions/?p=se.nosskirneh.roadrunner
-Name: RoadRunner
-
-Package: uikittools
-Version: 2.1.1
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Cameron Katri <me@cameronkatri.com>
-Installed-Size: 688
-Suggests: uikittools-extra (= 2.1.1)
-Filename: ./debs/uikittools.deb
-Size: 81952
-MD5sum: 9185b21661bf6e0d5385063e11f14dbb
-SHA1: 9729445489e331411502b3dbd9cbf48310e75a62
-SHA256: 8048ea046756fa0bb8105b0fc4af69418cf34e4a24ff7f8e75300ca066ce0fd6
-Section: Utilities
-Priority: required
-Description: Command line access for UIKit/LaunchServices/CoreServices
-
-Package: ws.hbang.alderis
-Version: 1.1.2
-Architecture: iphoneos-arm
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 6468
-Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
-Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
-Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
-Filename: ./debs/ws.hbang.alderis.deb
-Size: 2850276
-MD5sum: d85ff33e50af758541b7a1bb796e0669
-SHA1: 4fe72a9718de70d1c19b4b25ee3808c1fb1c3482
-SHA256: 68b1c78c815bae05a23ab4cfba340e15eb2b7734e18c1f71edb031d285ce42f2
-Section: Development
-Description: Color picker support library for tweaks
-Tag: role::developer, compatible_min::ios12.0
-Author: HASHBANG Productions <support@hbang.ws>
-Depiction: https://chariz.com/get/alderis
-Dev: hbang
-Icon: https://chariz.com/cdn/icon/alderis/icon@3x.png
-Name: Alderis Color Picker
-Support: https://hashbang.productions/support/
-
-Package: ws.hbang.common
-Version: 1.17
-Architecture: iphoneos-arm
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 1852
-Depends: firmware (<< 8.0) | firmware (>= 11.0) | com.rpetrich.rocketbootstrap
-Filename: ./debs/ws.hbang.common.deb
-Size: 337322
-MD5sum: 58710e1356fc2223d73b38782c60b4d5
-SHA1: dc5e1c354c0b6d2efffd84af8ddc29abe8df8d92
-SHA256: 13f6456c9e0132a9afeb6138844c111e36f50879b1a28a9db935063460288ddd
-Section: Development
-Description: Support library for tweaks
-Tag: role::developer, compatible_min::ios5.0
-Author: HASHBANG Productions <support@hbang.ws>
-Depiction: https://chariz.com/get/cephei
-Dev: hbang
-Icon: https://cdn.chariz.cloud/icon/cephei/icon@3x.png
-Name: Cephei Tweak Support
-Support: https://hashbang.productions/support/
-
-Package: xyz.skitty.ersatz
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Skitty
-Installed-Size: 472
-Depends: mobilesubstrate
-Filename: ./debs/xyz.skitty.ersatz.deb
-Size: 70986
-MD5sum: 9cb3fcaf8405a64a3154a385805a3b68
-SHA1: 9320530628af28075e847b4c711b99d8c99728ae
-SHA256: 263cf6ce77bb96ce65a48610e6f8cc801fb93ee4ea5470618095785d06ae448b
-Section: Tweaks
-Description: Replace any text, system-wide!
-Author: Skitty
-Depiction: https://skitty.xyz/repo/depictions/?p=xyz.skitty.ersatz
-Icon: https://skitty.xyz/repo/icons/xyz.skitty.ersatz.png
-Name: Ersatz
-Sileodepiction: https://skitty.xyz/repo/depictions/?s=xyz.skitty.ersatz
-
-Package: xyz.willy.zebra
-Version: 1.1.22
-Architecture: iphoneos-arm
-Maintainer: Wilson Styres <wilson@styres.me>
-Installed-Size: 15964
-Depends: dpkg, uikittools, firmware (>= 9.0)
-Filename: ./debs/xyz.willy.zebra.deb
-Size: 9750410
-MD5sum: 8608679e8198e1e7d4cd5533161ffdb2
-SHA1: bdf60edf5137d7b624a10acc1155930e70d9e5fd
-SHA256: b5af0f7fc30a7dc165cc11108a828703b146754fee56393e68a4d3be96c3bbb4
-Section: Packaging
-Description: A Useful Package Manager
-Tag: compatible::9.0-14.8
-Author: Wilson Styres <wilson@styres.me>
-Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
-Name: Zebra
 
